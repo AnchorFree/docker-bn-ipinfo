@@ -1,0 +1,9 @@
+version: '2'
+services:
+  ipinfo:
+    container_name: ipinfo
+    image: "anchorfree/bn-ipinfo"
+    restart: always
+    ports:
+      - "80:80"
+
